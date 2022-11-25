@@ -1,0 +1,21 @@
+{
+  "name": "open-weather-map",
+  "version": "1.0.0",
+  "description": "Sample project to test the Open Weather Map API using Cypress.",
+  "main": "cypress.config.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run"
+  },
+  "keywords": [
+    "Cypress.io",
+    "Open Weather Map API",
+    "API Testing"
+  ],
+  "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr.dev/)",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^11.2.0",
+    "cypress-plugin-api": "^2.6.0"
+  }
+}
