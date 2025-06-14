@@ -18,7 +18,7 @@ describe('Open weather map', () => {
         const { city } = body
         expect(status).to.equal(200)
         expect(statusText).to.equal('OK')
-        expect(city.country).to.equal('ES') 
+        expect(city.country).to.equal('ES')
       })
     })
   })
